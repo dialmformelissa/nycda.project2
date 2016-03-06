@@ -5,6 +5,10 @@ body {
                 font-family: Open Sans, Arial, sans-serif;
                 overflow-x: hidden;
             }
+
+            .center {
+            text-align: center;
+            }
             
             nav {
                 position: fixed;
