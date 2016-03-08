@@ -6,7 +6,4 @@ $(document).ready(function(){
                 e.preventDefault();
             });
 
-$("picture").click(function(event){
-        
-
         })();
