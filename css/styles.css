@@ -5,17 +5,6 @@
 .center {
     text-align: center;
 }
-
-.right {
-    text-align: right;
-}
-/*KL-Rounded Edge text box in contact info.  Looks better I think*/
-.imagebox {
-border:1px solid #b3b3b3;
-background:#dddddd;
-width:200px;
-border-radius:8px;
-}
 /*MH added content class so it can push when nav bar open*/
 .content {
     transition: transform 0.4s ease;
