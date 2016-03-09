@@ -19,8 +19,8 @@
 .imagebox {
     border: 1px solid #b3b3b3;
     background: #dddddd;
-    width: 200px;
-    border-radius: 8px
+    width: 300px;
+    border-radius: 8px;
 }
 
 .center {
@@ -36,18 +36,20 @@
 }
 /*MH columns*/
 .container2 {
-    padding:50px;
+    margin-left:20px;
     clear:left;
     float:left;
     width:100%;
     overflow:hidden;
 }
 .container1 {
+    margin-left:20px;
     float:left;
     width:100%;
     position:relative;
     right:50%;
 }
+
 .col1 {
     float:left;
     width:46%;
@@ -55,6 +57,7 @@
     left:52%;
     overflow:hidden;
 }
+
 .col2 {
     float:left;
     width:46%;
@@ -64,8 +67,18 @@
 }
 
 /* insert image gallery*/
+.align-to-grid,
+.col {
+  padding-left: 16px;
+  padding-right: 16px;
+}
 
-
+/*MH added position: relative to get it to move with bar*/
+.col {
+  width: 50%;
+  float: left;
+  position: relative;
+}
 
 body {
     font-family: Open Sans, Arial, sans-serif;
@@ -106,4 +119,21 @@ nav ul li a {
     width: 40px;
     height: 40px;
     background-color: #666;
+    opacity: 0.5;
+}
+
+h1, h2 {
+    font-family: "Ribeye";
+    text-shadow: 2px 2px 2px #aaa;
+}
+
+p, form, li, h3 {
+    font-family: "Dosis";
+}
+
+@media screen and (max-width: 600px) {
+  .col {
+    float: none;
+    width: auto;
+  }
 }
