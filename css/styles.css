@@ -2,6 +2,14 @@
   box-sizing: border-box;
 }
 
+.caption {
+    display: block;
+    padding-top: 2px;
+    font-size: 12px;
+    color: #7E8C96;
+
+}
+
 #banner img {
     border: none;
     margin: 0 auto;
